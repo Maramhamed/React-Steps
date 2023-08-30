@@ -1,0 +1,42 @@
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers > div {
+  height: 40px;
+  aspect-ratio: 1;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.numbers .active {
+  background-color: #5e5df0;
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  top: 50px;
+  right: 100px; /* Change left to right */
+  border: none;
+  height: 40px;
+  aspect-ratio: 1;
+  background-color: #5e5df0;
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: white;
+  background-color: #e7e7e7;
+}
